@@ -16,11 +16,11 @@ const projects = [
     footerLink: [
       {
         name: "View Project",
-        url: "#",
+        url: "https://64bec9e5311bbd0e2fcc3e62--quiet-empanada-27c656.netlify.app",
       },
       {
         name: "View Code",
-        url: "#",
+        url: "https://github.com/Arun522/Arunpholio",
       },
       //  you can add extra buttons here.
     ],
