@@ -1,0 +1,35 @@
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
+@media (max-width: 640px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
+    gap: 1rem 1rem;
+  }
+}
+.image-link {
+  width: 18px;
+  height: 16px;
+}
+.image-link:hover {
+  width: 18px;
+  height: 16px;
+  /* color:#FE3D0C; */
+  transform: scale(2);
+}
+.fas-link {
+  width: 18px;
+  height: 16px;
+}
+.fas-link:hover {
+  width: 18px;
+  height: 16px;
+  color: black;
+  transform: scale(2);
+}
+.ant-card-actions {
+  /* background-color: #EEF8F4; */
+}

@@ -1,0 +1,120 @@
+/* @import "~antd/dist/antd.css"; */
+
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #fe3d0c;
+}
+
+.ant-layout-header {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+.logo {
+  /* height: 32px; */
+  /* margin: 16px; */
+  /* background: rgba(255, 255, 255, 0.3); */
+}
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.grey-color {
+  color: #868e96;
+}
+.logo {
+  display: flex;
+  /* flex: none;
+    float: left; */
+  justify-content: center;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: normal;
+  align-items: center;
+  /* margin-left: auto; */
+  margin-right: auto;
+}
+.logo-name {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+}
+#root > section > aside {
+  background-color: #eef8f4;
+}
+/* Media Query */
+@media (max-width: 768px) {
+  #root > div > div > section > aside {
+    position: fixed !important;
+    z-index: 1;
+    max-width: 0px !important;
+    width: 0px !important;
+    min-width: 0px !important;
+    /* background-color: #EEF8F4; */
+    margin-top: 20px;
+  }
+  .ant-menu-inline .ant-menu-item {
+    overflow: unset !important;
+    /* width: 100%!important; */
+  }
+  .ant-menu-inline {
+    width: fit-content !important;
+  }
+
+  /* .trigger{
+   display: none;
+  } */
+}
+
+.ant-layout-sider-children {
+  background: #fff;
+  border-right: 1px solid #f0f0f0;
+}
+.topButton {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  /* background-color: #FE3D0C; */
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 25px;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #eef8f4;
+}
+.ant-menu-item-selected {
+  color: #fe3d0c;
+}
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid #fe3d0c;
+}
+.ant-menu-item:hover,
+.ant-menu-item-active {
+  color: #fe3d0c;
+}
+.ant-menu-root.ant-menu-inline {
+  height: -webkit-fill-available;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%),
+    0 9px 28px 8px rgb(0 0 0 / 5%) !important;
+}

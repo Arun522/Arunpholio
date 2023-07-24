@@ -1,0 +1,20 @@
+.certification-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
+@media (max-width: 640px) {
+  .certification-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
+    gap: 1rem 1rem;
+  }
+  .ant-image {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+.ant-image {
+  width: 400px;
+  height: auto;
+}
