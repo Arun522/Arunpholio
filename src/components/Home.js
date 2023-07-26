@@ -122,7 +122,7 @@ const Home = () => {
               key="Resume"
               icon={<FileOutlined />}
               onClick={() =>
-                openProjectInNewWindow("https://drive.google.com/file/d/1aEnoCpFyFeBbNlA2JhrMQFtPhZWCyZa3/view?usp=drive_link")
+                openProjectInNewWindow("https://drive.google.com/file/d/15OkUXLKAPpWONEAXdFg4VedpOnRTkCQY/view?usp=drive_link")
               }
             >
               Resume
