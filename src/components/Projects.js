@@ -67,6 +67,86 @@ const projects = [
   },
 
   {
+    image: require("../assets/images/covid-191.png"),
+    projectName: "Covid-19 Tracker",
+    projectDesc: "MERN stack covid tracker platform",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://lnkd.in/gGaMBtj",
+      },
+      {
+        name: "View Code",
+        url: "https://github.com/Arun522/Covid19Tracker#covid-19-tracker",
+      },
+    ],
+  },
+
+  {
+    image: require("../assets/images/arun-eats.png"),
+    projectName: "Arun Eats",
+    projectDesc: "Food Ordering website",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://food-0rdering-website.netlify.app/",
+      },
+      {
+        name: "View Code",
+        url:
+          "https://github.com/Arun522/Food-ordering-website",
+      },
+    ],
+  },
+  {
+    image: require("../assets/images/data-fin.png"),
+    projectName: "REACT.",
+    projectDesc: "Data Analytics Landing page",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://datafin-landingpage.netlify.app/",
+      },
+      {
+        name: "View Code",
+        url:
+          "https://github.com/Arun522/Data-Finance-LandingPage",
+      },
+    ],
+  },
+  {
+    image: require("../assets/images/nexcent.png"),
+    projectName: "Nexcent",
+    projectDesc: "Agency Website",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://agency-website-temp.netlify.app/",
+      },
+      {
+        name: "View Code",
+        url:
+          "https://github.com/Arun522/Agency-website",
+      },
+    ],
+  },
+  {
+    image: require("../assets/images/plant.png"),
+    projectName: "PLANT.",
+    projectDesc: "Interior Design Website",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://plant-interior-design.netlify.app/",
+      },
+      {
+        name: "View Code",
+        url:
+          "https://github.com/Arun522/Plant-interior-design-page",
+      },
+    ],
+  },
+  {
     image: require("../assets/images/QKart.png"),
     projectName: "QKart",
     projectDesc: "A MERN stack E-commerce Application",
@@ -85,67 +165,7 @@ const projects = [
       },
     ],
   },
-  {
-    image: require("../assets/images/Crio-News-Feed.png"),
-    projectName: "XBOARD",
-    projectDesc: "A Dynamic News Feed Website",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://clinquant-biscuit-249590.netlify.app/",
-      },
-      {
-        name: "View Implementation",
-        url: "https://www.crio.do/portfolio/mailarun522/ME_BUILDOUT_XBOARD/",
-      },
-    ],
-  },
-  {
-    image: require("../assets/images/QTrip-static.png"),
-    projectName: "QTrip Static",
-    projectDesc: "A static travel website",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://649acb06295e6105bd8cf935--arunkumarvelu-qtrip.netlify.app/",
-      },
-      {
-        name: "View Implementation",
-        url: "https://www.crio.do/portfolio/mailarun522/ME_QTRIPSTATIC/",
-      },
-    ],
-  },
-  {
-    image: require("../assets/images/covid-191.png"),
-    projectName: "Covid-19 Tracker",
-    projectDesc: "MERN stack covid tracker platform",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://lnkd.in/gGaMBtj",
-      },
-      {
-        name: "View Code",
-        url: "https://github.com/Arun522/Covid19Tracker#covid-19-tracker",
-      },
-    ],
-  },
-  {
-    image: require("../assets/images/adminInterface.png"),
-    projectName: "Admin Interface",
-    projectDesc: "building an interface for admins and users",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://64b98bbb18f2a031cf0ffc6b--adminpage-frontend.netlify.app/",
-      },
-      {
-        name: "View Code",
-        url:
-          "https://github.com/Arun522/admin_page-frontend",
-      },
-    ],
-  },
+  
 ];
 
 export default function Projects() {
