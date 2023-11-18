@@ -25,62 +25,6 @@ const projects = [
       //  you can add extra buttons here.
     ],
   },
-  {
-    image: require("../assets/images/QTrip-dynamic.png"),
-    projectName: "QTrip Dynamic",
-    projectDesc: "An activity-planning website for travellers",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://649acb06295e6105bd8cf935--arunkumarvelu-qtrip.netlify.app/",
-      },
-      {
-        name: "View Code",
-        url: "https://github.com/Arun522/mailarun522-ME_QTRIPDYNAMIC",
-      },
-      {
-        name: "View Implementation",
-        url: "https://www.crio.do/portfolio/mailarun522/ME_QTRIPDYNAMIC/",
-      },
-    ],
-  },
-  
-  {
-    image: require("../assets/images/xflix.png"),
-    projectName: "XFlix",
-    projectDesc: "A MERN stack video sharing platform",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://xflix-mern.netlify.app/",
-      },
-      {
-        name: "View Code",
-        url: "https://github.com/Arun522/mailarun522-ME_BUILDOUT_XFLIX_NODE",
-      },
-      {
-        name: "View Implementation",
-        url: "https://www.crio.do/portfolio/mailarun522/",
-      },
-      //  you can add extra buttons here.
-    ],
-  },
-
-  {
-    image: require("../assets/images/covid-191.png"),
-    projectName: "Covid-19 Tracker",
-    projectDesc: "MERN stack covid tracker platform",
-    footerLink: [
-      {
-        name: "View Project",
-        url: "https://lnkd.in/gGaMBtj",
-      },
-      {
-        name: "View Code",
-        url: "https://github.com/Arun522/Covid19Tracker#covid-19-tracker",
-      },
-    ],
-  },
 
   {
     image: require("../assets/images/arun-eats.png"),
@@ -98,6 +42,24 @@ const projects = [
       },
     ],
   },
+
+  {
+    image: require("../assets/images/plant.png"),
+    projectName: "PLANT.",
+    projectDesc: "Interior Design Website",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://plant-interior-design.netlify.app/",
+      },
+      {
+        name: "View Code",
+        url:
+          "https://github.com/Arun522/Plant-interior-design-page",
+      },
+    ],
+  },
+
   {
     image: require("../assets/images/data-fin.png"),
     projectName: "REACT.",
@@ -130,22 +92,64 @@ const projects = [
       },
     ],
   },
-  {
-    image: require("../assets/images/plant.png"),
-    projectName: "PLANT.",
-    projectDesc: "Interior Design Website",
+
+   {
+    image: require("../assets/images/xflix.png"),
+    projectName: "XFlix",
+    projectDesc: "A MERN stack video sharing platform",
     footerLink: [
       {
         name: "View Project",
-        url: "https://plant-interior-design.netlify.app/",
+        url: "https://xflix-mern.netlify.app/",
       },
       {
         name: "View Code",
-        url:
-          "https://github.com/Arun522/Plant-interior-design-page",
+        url: "https://github.com/Arun522/mailarun522-ME_BUILDOUT_XFLIX_NODE",
+      },
+      {
+        name: "View Implementation",
+        url: "https://www.crio.do/portfolio/mailarun522/",
+      },
+      //  you can add extra buttons here.
+    ],
+  },
+  
+  {
+    image: require("../assets/images/QTrip-dynamic.png"),
+    projectName: "QTrip Dynamic",
+    projectDesc: "An activity-planning website for travellers",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://649acb06295e6105bd8cf935--arunkumarvelu-qtrip.netlify.app/",
+      },
+      {
+        name: "View Code",
+        url: "https://github.com/Arun522/mailarun522-ME_QTRIPDYNAMIC",
+      },
+      {
+        name: "View Implementation",
+        url: "https://www.crio.do/portfolio/mailarun522/ME_QTRIPDYNAMIC/",
       },
     ],
   },
+
+  {
+    image: require("../assets/images/covid-191.png"),
+    projectName: "Covid-19 Tracker",
+    projectDesc: "MERN stack covid tracker platform",
+    footerLink: [
+      {
+        name: "View Project",
+        url: "https://lnkd.in/gGaMBtj",
+      },
+      {
+        name: "View Code",
+        url: "https://github.com/Arun522/Covid19Tracker#covid-19-tracker",
+      },
+    ],
+  },
+  
   {
     image: require("../assets/images/QKart.png"),
     projectName: "QKart",
