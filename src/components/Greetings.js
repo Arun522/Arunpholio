@@ -56,7 +56,7 @@ export default function Greeting() {
                 style={{ fontFamily: "Mynor-Regular" }}
                 onClick={() =>
                   openProjectInNewWindow(
-                    "https://drive.google.com/file/d/15OkUXLKAPpWONEAXdFg4VedpOnRTkCQY/view?usp=drive_link"
+                    "https://drive.google.com/file/d/1_TQUBmchpNV00WA1KW74BfYdNPnTrmzR/view?usp=drive_link"
                   )
                 }
               >
